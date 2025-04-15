@@ -37,3 +37,14 @@ var test4 = [
 // If the algorithm is improperly made, the program will work improperly 
 
 assert(JSON.stringify(search(test4, 0, 2)) != JSON.stringify([]));
+
+var test5 = [
+    [1,0,1],
+    [0,0,1],
+    [0,1,0]
+];
+
+// Testing to see if the path can be correctly made
+
+assert(JSON.stringify(search(test5, 0, 1)) == JSON.stringify([0,2,1]));
+
