@@ -26,6 +26,11 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+**The worst case copmlexity of the search would end up being $\theta(|V| + |E|)$  where |V| is the number of verticies, and |E| is the number of edges. This is because in order to search, each vertex is visited, and then each edge is followed until eventually the connection to the target node is found. In the worst case, there is only one (or no) connection to the target node. This means we will have to search every edge of each vertex, and visit every single vertex until we reach the target, giving $(|V| + |E|)$**
+
 ## Bonus
 
 Implement and analyze breadth-first search.
+
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
